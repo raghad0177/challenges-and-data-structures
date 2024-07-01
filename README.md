@@ -1,7 +1,7 @@
 #  Challenge 01 :Challenges-and-data-structures
 
 ## Challenge A: Array Reversal 
-### [Array Reversal Whiteboard](https://github.com/raghad0177/challenges-and-data-structures/blob/whiteboard-challenges/whiteboard-challenges/ch1.png "Open Link")
+### [Array Reversal Whiteboard](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch.1.png) "Open Link")
 
 ## Challenge B: Most Frequent Number
 ### [Most Frequent Number Whiteboard](https://github.com/raghad0177/challenges-and-data-structures/blob/whiteboard-challenges/whiteboard-challenges/ch2.png "Open Link")
