@@ -18,6 +18,6 @@
 
 # Challenge 05: Find-Duplicates
 ### [Find-Duplicates-White-bord](https://github.com/raghad0177/challenges-and-data-structures/blob/main/whiteboard-challenges/ch5.1.png "Open Link")
-### [Find-Duplicates-Console-Readme-File](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/Challenges/Find-Duplicates/Find-Duplicates/Readme.md)
+### [Find-Duplicates-Console-Readme-File](https://github.com/raghad0177/challenges-and-data-structures/tree/Common-Elements/challenges-and-data-structures/Challenges/Find-Duplicates/Find-Duplicates)
 
 
