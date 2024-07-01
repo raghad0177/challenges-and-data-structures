@@ -22,6 +22,6 @@
 ### [Find-Duplicates-Console-Readme-File](https://github.com/raghad0177/challenges-and-data-structures/tree/Common-Elements/challenges-and-data-structures/Challenges/Find-Duplicates/Find-Duplicates/Readme.md)
 
 # Challenge 06: Find-Common-Elements
-### [Find-Duplicates-White-bord](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch6.png "Open Link")
+### [Find-Common-Elements](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch6.png "Open Link")
 
 
