@@ -25,5 +25,5 @@
 ### [Find-Common-Elements](https://github.com/raghad0177/challenges-and-data-structures/blob/Common-Elements/challenges-and-data-structures/whiteboard-challenges/ch6.png "Open Link")
 
 # Challenge 06.2: Reverse-Words
-### [Reverse-Words](https://github.com/raghad0177/challenges-and-data-structures/blob/Common-Elements/challenges-and-data-structures/whiteboard-challenges/ch6.2.png "Open Link")
+### [Reverse-Words](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch6.2.png "Open Link")
 
