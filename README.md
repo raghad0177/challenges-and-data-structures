@@ -27,8 +27,6 @@
 # Challenge 06.2: Reverse-Words
 ### [Reverse-Words](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch6.2.png "Open Link")
 
-https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch.7.png
-
 
 # Challenge 07: DataStructure
 ## Challenge 07.1: LinkedList
