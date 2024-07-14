@@ -10,7 +10,28 @@ namespace LearnLinkedList
     public class LinkedList
     {
         public Node First { get; set; }
+        //
+        public void RemoveDuplicate()
+        {
+            Node current = First;
+            while (current != null)
+            {
+                Node runner = current;
+                while (runner.Next != null)
+                {
+                    if (runner.Next.Data == current.Data)
+                    {
+                        runner.Next = runner.Next.Next;
+                    }
+                    else
+                    {
+                        runner = runner.Next;
+                    }
+                }
 
+                current = current.Next;
+            }
+        }
         //Check if the linked List contains a node with the specified value.
         public void Include(int data)
         {
