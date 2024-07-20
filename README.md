@@ -34,5 +34,5 @@
 ## Challenge 07.2: LinkedList
 ### [LinkedList](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch7.22.png "Open Link")
 ## Challenge 07.3: LinkedList
-### [LinkedList](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch7.33.png "Open Link")
+### [Merge-Two-lists](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch7.33.png "Open Link")
 
