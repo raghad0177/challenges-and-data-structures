@@ -15,5 +15,9 @@ namespace LearnLinkedList
         {
             Data = data;
         }
+        public Node()
+        {
+           
+        }
     }
 }
