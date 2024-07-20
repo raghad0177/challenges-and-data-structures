@@ -64,7 +64,6 @@ namespace Linked_List_Implementation_Test
             {
                 linkedList3.Print();
                 string actualOutput = stringWriter.ToString();
-
                 // Assert
                 Assert.Equal(expectedOutput, actualOutput);
             }
@@ -74,7 +73,6 @@ namespace Linked_List_Implementation_Test
                 Console.SetOut(originalOutput);
             }
         }
-
         [Fact]
         public void MergeTwoListsEmptys()
         {

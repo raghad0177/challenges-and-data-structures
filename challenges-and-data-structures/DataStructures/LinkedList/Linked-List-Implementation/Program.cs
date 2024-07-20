@@ -57,8 +57,12 @@ namespace Linked_List_Implementation
                 linkedList4.InsertLast(5);
                 linkedList4.InsertLast(7);
                 linkedList4.InsertLast(8);
-
                 Console.WriteLine("\n\nMerge Two Sorted Lists");
+                Console.WriteLine("List 1");
+                linkedList3.Print();
+                Console.WriteLine("\nList 2");
+                linkedList4.Print();
+                Console.WriteLine("\nMerging : ");
                 LinkedList node = LinkedList.MergeTwoLists(linkedList3, linkedList4);
                 node.Print();
             }
