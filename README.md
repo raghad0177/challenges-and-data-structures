@@ -37,6 +37,6 @@
 ### [Merge-Two-lists](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch7.33.png "Open Link")
 # Challenge 09: Stack&Queue
 ## Stack
-### [Merge-Two-lists](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch9.1.1.png "Open Link")
+### [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch9.1.1.png "Open Link")
 ## Queue
-### [Merge-Two-lists](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch9.2.2.png "Open Link")
+### [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch9.2.2.png "Open Link")
