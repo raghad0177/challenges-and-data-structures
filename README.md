@@ -40,3 +40,5 @@
 ### [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch9.1.1.png "Open Link")
 ## Queue
 ### [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch9.2.2.png "Open Link")
+## Reverse a Stack using Queue
+### [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch10.1.png "Open Link")
