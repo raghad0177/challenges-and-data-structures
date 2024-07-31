@@ -25,7 +25,7 @@ namespace Stack_and_Queue_Implementation
                 front = back = newNode;
             }
             else
-            {
+            { // (data,next(data,next(data,next(data,next))))
                 back.Next = newNode;
                 back = newNode;
             }
@@ -41,7 +41,7 @@ namespace Stack_and_Queue_Implementation
                 front = back = newNode;
             }
             else
-            {
+            {//(data,next(data,next(data,next))))
                 result =  front.Data;
                 front = front.Next;
             }
