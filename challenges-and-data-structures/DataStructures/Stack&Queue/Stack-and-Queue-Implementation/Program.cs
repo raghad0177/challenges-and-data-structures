@@ -10,21 +10,30 @@
             stack.Push(3);
             stack.Push(4);
             stack.Push(5);
-            Console.WriteLine(stack);
-            Console.WriteLine("Before Rev.");
-            Stack_and_Queue_Implementation.Stack tempStack = new Stack_and_Queue_Implementation.Stack();
-            while (!stack.IsEmpty())
-            {
-                int item = stack.Pop();
-                Console.WriteLine(item);
-                tempStack.Push(item);
-            }
-            tempStack.ReverseStack(stack);
-            Console.WriteLine("After Rev.");
-            while (!tempStack.IsEmpty())
-            {
-             Console.WriteLine(tempStack.Pop());
-            }
+            stack.Push(6);
+            stack.DeleteMiddle(stack);
+           
+            //Stack_and_Queue_Implementation.Stack stack = new Stack_and_Queue_Implementation.Stack();
+            //stack.Push(1);
+            //stack.Push(2);
+            //stack.Push(3);
+            //stack.Push(4);
+            //stack.Push(5);
+            //Console.WriteLine(stack);
+            //Console.WriteLine("Before Rev.");
+            //Stack_and_Queue_Implementation.Stack tempStack = new Stack_and_Queue_Implementation.Stack();
+            //while (!stack.IsEmpty())
+            //{
+            //    int item = stack.Pop();
+            //    Console.WriteLine(item);
+            //    tempStack.Push(item);
+            //}
+            //tempStack.ReverseStack(stack);
+            //Console.WriteLine("After Rev.");
+            //while (!tempStack.IsEmpty())
+            //{
+            // Console.WriteLine(tempStack.Pop());
+            //}
             // Stack_and_Queue_Implementation.Queue queue = new Stack_and_Queue_Implementation.Queue();
             //stack.Push(1);
             //stack.Push(2);

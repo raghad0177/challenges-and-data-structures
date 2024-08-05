@@ -44,6 +44,7 @@ namespace Stack_and_Queue_Implementation
         {
             return top == null;
         }
+        //ReverseStack
         public void ReverseStack(Stack_and_Queue_Implementation.Stack stack)
         {
             Stack_and_Queue_Implementation.Queue queue = new Stack_and_Queue_Implementation.Queue();
@@ -57,6 +58,43 @@ namespace Stack_and_Queue_Implementation
                 stack.Push(queue.Dequeue());// 5 4 3 2 1 => 1 2 3 4 5
             }
 
+        }
+        //DeleteMiddle
+        public void DeleteMiddle(Stack_and_Queue_Implementation.Stack stack)
+        {
+            int count = 0;
+            Stack_and_Queue_Implementation.Stack stack2 = new Stack_and_Queue_Implementation.Stack();
+            Stack_and_Queue_Implementation.Stack stack3 = new Stack_and_Queue_Implementation.Stack();
+            while (!stack.IsEmpty())
+            {
+                stack2.Push(stack.Pop());
+                count++;
+            }
+            while (!stack2.IsEmpty())
+            {
+                stack.Push(stack2.Pop());
+            }
+            if (count % 2 == 0)
+            {
+                count = count / 2;
+            }
+            else
+            {
+                count = count / 2; // 7   => 7/2   3 ==>3 + 1 = 4
+            }
+            for (int i = 0; i < count; i++) { 
+                  stack3.Push(stack.Pop());
+            }
+            stack.Pop();
+            while (!stack3.IsEmpty())
+            {
+                stack.Push(stack3.Pop());
+            }
+            while (!stack.IsEmpty())
+            {
+                int item = stack.Pop();
+                Console.Write(item+" ");
+            }
         }
     }
 }
