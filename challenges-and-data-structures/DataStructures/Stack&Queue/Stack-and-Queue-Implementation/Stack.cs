@@ -80,7 +80,7 @@ namespace Stack_and_Queue_Implementation
             }
             else
             {
-                count = count / 2; // 7   => 7/2   3 ==>3 + 1 = 4
+                count = count / 2;
             }
             for (int i = 0; i < count; i++) { 
                   stack3.Push(stack.Pop());
