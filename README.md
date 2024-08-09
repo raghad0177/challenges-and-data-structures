@@ -45,3 +45,6 @@
 ### [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch10.1.png "Open Link")
 # Challenge 11: Remove Middle in Stack
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch11.png "Open Link")
+# Challenge 12: Find Min. in Stack
+## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch12.png "Open Link")
+
