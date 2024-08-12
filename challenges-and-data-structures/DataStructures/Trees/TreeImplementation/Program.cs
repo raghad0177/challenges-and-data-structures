@@ -22,6 +22,16 @@
             // (Left - Right - Root)
             Console.Write("\nPost Order Traversal: ");
             BTree.PostOrderTraversal(BTree.Root);
+
+            BinaryTree b = new BinaryTree(10);
+            b.Insert(5);
+            b.Insert(15);
+            b.Insert(3);
+            b.Insert(7);
+            b.Insert(12);
+            b.Insert(18);
+
+            b.print(b.Root);
         }
     }
 }

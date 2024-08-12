@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TreeImplementation
 {
-    internal class TNode
+    public class TNode
     {
         public int Value { get; set; }
 
