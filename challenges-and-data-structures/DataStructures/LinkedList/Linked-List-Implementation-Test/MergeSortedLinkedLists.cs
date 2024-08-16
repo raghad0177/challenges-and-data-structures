@@ -12,7 +12,7 @@ namespace Linked_List_Implementation_Test
         public void MergeTwoLists()
         {
             // Arrange
-            LearnLinkedList.LinkedList linkedList1 = new LearnLinkedList.LinkedList();
+            LearnLinkedList.LinkedList linkedList1 = new LearnLinkedList.LinkedList(); 
             LearnLinkedList.LinkedList linkedList2 = new LearnLinkedList.LinkedList();
             LearnLinkedList.LinkedList mergedList = new LearnLinkedList.LinkedList();
 
