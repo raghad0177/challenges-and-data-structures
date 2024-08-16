@@ -47,4 +47,8 @@
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch11.png "Open Link")
 # Challenge 12: Find Min. in Stack
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch12.png "Open Link")
+# Challenge 13: Trees
+## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch13.png "Open Link")
+# Challenge 14: Trees-Mirror
+## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch14.png "Open Link")
 
