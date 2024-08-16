@@ -21,7 +21,7 @@ namespace TreeImplementation
         {
             if (value < node.Value)
             {
-                if (node.Left == null)
+                if (node.Left == null)  
                 {
                     node.Left = new TNode(value);
                 }
