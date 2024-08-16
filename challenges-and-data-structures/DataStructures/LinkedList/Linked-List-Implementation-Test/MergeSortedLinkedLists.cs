@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Linked_List_Implementation_Test
 {
     public class MergeSortedLinkedLists
-    {
+    { 
         [Fact]
         public void MergeTwoLists()
         {
