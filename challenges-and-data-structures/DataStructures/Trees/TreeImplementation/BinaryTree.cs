@@ -8,12 +8,33 @@ namespace TreeImplementation
 {
     public class BinaryTree
     {
+        List<int> list=new List<int>();
+        List<int> list2=new List<int>(); 
         public TNode Root { get; set; }
         public BinaryTree(int rootValue)
         {
             Root = new TNode(rootValue);
         }
-        public void Insert(int value)  
+        public BinaryTree()
+        {
+        }
+        public List<int> MirrorTree(TNode node)
+        {
+            if (node == null) return null;
+            MirrorTree(node.Right);
+            list2.Add(node.Value);
+            MirrorTree(node.Left);
+            return list2;
+        }
+        public List<int> InorderTraversal(TNode node)
+        {
+            if (node == null) return null;
+            InorderTraversal(node.Left);
+            list.Add(node.Value);
+            InorderTraversal(node.Right);
+            return list;
+        }
+        public void Insert(int value)
         {
             Insert(Root, value);
         }

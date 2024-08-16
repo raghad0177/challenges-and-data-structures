@@ -22,7 +22,7 @@ namespace Tree_Test
             bool contains20 = bst.Contains(20, bst.Root);
 
             // Assert
-            Assert.True(contains3);
+            Assert.True(contains3);  
             Assert.True(contains7);
             Assert.True(contains12);
             Assert.True(contains18);
