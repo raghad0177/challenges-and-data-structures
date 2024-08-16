@@ -27,7 +27,7 @@ namespace Linked_List_Implementation_Test
             string expectedOutput = "2 3 5 10 15 20 ";
             // Act
             try
-            {
+            {  
                 mergedList = LearnLinkedList.LinkedList.MergeTwoLists(linkedList1, linkedList2);
                 var stringWriter = new StringWriter();
                 TextWriter originalOutput = Console.Out;
