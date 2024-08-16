@@ -16,7 +16,7 @@ namespace Stack_and_Queue_Implementation
             top = null;
             minTop = null;
         }
-
+         
         // Push an element to the stack
         public void Push(int data)
         {
