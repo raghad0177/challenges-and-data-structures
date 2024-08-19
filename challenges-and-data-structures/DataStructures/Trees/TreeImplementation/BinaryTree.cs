@@ -18,6 +18,38 @@ namespace TreeImplementation
         public BinaryTree()
         {
         }
+        int FirstMax = 0;
+        int SecMax = 0;
+        public int FindSecondMax(TNode node)
+        {
+            if (node == null) return SecMax;
+            if (node.Value > FirstMax)
+            {
+                SecMax = FirstMax; 
+                FirstMax = node.Value; 
+                if (node.Right != null)
+                {
+                    FindSecondMax(node.Right);
+                }
+                if (node.Right == null)
+                {
+                    FindSecondMax(node.Left);
+                }
+            }
+            else if (node.Value > SecMax && node.Value < FirstMax)
+            {
+                SecMax = node.Value; 
+            }
+            if (node.Left != null)
+            {
+                FindSecondMax(node.Left);
+            }
+            if (node.Right != null)
+            {
+                FindSecondMax(node.Right);
+            }
+            return SecMax;
+        }
         public List<int> MirrorTree(TNode node)
         {
             if (node == null) return null;
@@ -98,7 +130,6 @@ namespace TreeImplementation
         int COUNT = 7;
         private void print2DUtil(TNode root, int space)
         {
-
             // Base case
             if (root == null)
                 return;
