@@ -26,7 +26,11 @@ namespace TreeImplementation
             if (node.Value > FirstMax)
             {
                 SecMax = FirstMax; 
-                FirstMax = node.Value; 
+                FirstMax = node.Value;
+                if (node.Left == null && node.Right == null)
+                {
+                    return FirstMax;
+                }
                 if (node.Right != null)
                 {
                     FindSecondMax(node.Right);
