@@ -51,4 +51,6 @@
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch13.png "Open Link")
 # Challenge 14: Trees-Mirror
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch14.png "Open Link")
+# Challenge 15: SecMaxValue
+## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch15.png "Open Link")
 
