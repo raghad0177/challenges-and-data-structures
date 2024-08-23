@@ -67,13 +67,13 @@ namespace TreeImplementation
             Console.WriteLine(secondMax);
             Console.WriteLine();
             BinaryTree Btree3 = new BinaryTree(9);
-            Btree3.Root.Left = new Node(8);
-            Btree3.Root.Right = new Node(12);
-            Btree3.Root.Left.Left = new Node(3);
-            Btree3.Root.Left.Right = new Node(7);
-            Btree3.Root.Right.Left = new Node(17);
-            Btree3.Root.Right.Right = new Node(23);
-            Btree3.Root.Left.Left.Right = new Node(4);
+            Btree3.Root.Left = new TNode(8);
+            Btree3.Root.Right = new TNode(12);
+            Btree3.Root.Left.Left = new TNode(3);
+            Btree3.Root.Left.Right = new TNode(7);
+            Btree3.Root.Right.Left = new TNode(17);
+            Btree3.Root.Right.Right = new TNode(23);
+            Btree3.Root.Left.Left.Right = new TNode(4);
             int leafSum = Btree3.LeafSum(Btree3.Root); // Output: 51
             Console.WriteLine("Som of Leaf Nodes : "+ leafSum);
         }
