@@ -18,6 +18,18 @@ namespace TreeImplementation
         public BinaryTree()
         {
         }
+        int LeafSums = 0;
+        public int LeafSum(TNode node)
+        {
+            if (node == null) return LeafSums;
+            if (node.Left ==null && node.Right == null)
+            {
+                LeafSums += node.Value;
+            }
+            LeafSum(node.Left);
+            LeafSum(node.Right);
+            return LeafSums; 
+        }
         int FirstMax = 0;
         int SecMax = 0;
         public int FindSecondMax(TNode node)
