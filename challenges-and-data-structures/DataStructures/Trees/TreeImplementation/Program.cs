@@ -65,7 +65,18 @@ namespace TreeImplementation
             Console.WriteLine();
             int secondMax = Btree2.FindSecondMax(Btree2.Root); // Output: 20
             Console.WriteLine(secondMax);
+            Console.WriteLine();
+            BinaryTree Btree3 = new BinaryTree(9);
+            Btree3.Root.Left = new Node(8);
+            Btree3.Root.Right = new Node(12);
+            Btree3.Root.Left.Left = new Node(3);
+            Btree3.Root.Left.Right = new Node(7);
+            Btree3.Root.Right.Left = new Node(17);
+            Btree3.Root.Right.Right = new Node(23);
+            Btree3.Root.Left.Left.Right = new Node(4);
+            int leafSum = Btree3.LeafSum(Btree3.Root); // Output: 51
+            Console.WriteLine("Som of Leaf Nodes : "+ leafSum);
         }
-       
+
     }
 }
