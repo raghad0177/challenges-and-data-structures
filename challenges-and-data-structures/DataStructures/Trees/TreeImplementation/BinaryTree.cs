@@ -18,6 +18,59 @@ namespace TreeImplementation
         public BinaryTree()
         {
         }
+        List<int> list3 = new List<int>();
+        int Max1 = 0;
+        int Max2 = 0;
+
+        public List<int> LargestValueEachLevel(TNode node)
+        {
+            list3.Add(node.Value);
+            ///////////////////////////////////////////////////////////////////////////////
+            if (node.Left.Value > node.Right.Value)
+            {
+                list3.Add(node.Left.Value);
+            }
+            else
+            {
+                list3.Add(node.Left.Value);
+            }
+            ///////////////////////////////////////////////////////////////////////////////
+            if (node.Left.Left.Value > node.Left.Right.Value)
+            {
+                Max1 = node.Left.Left.Value;
+            }
+            else
+            {
+                Max1 = node.Left.Right.Value;
+            }
+            ////////////////////////////////////////////////////////////////////////////////
+            if (node.Right.Left.Value > Max1)
+            {
+                Max1 = node.Right.Left.Value;
+            }
+            if (node.Right.Right.Value > Max1)
+            {
+                Max1 = node.Right.Right.Value;
+            }
+            list3.Add(Max1);
+            if (node.Left.Left.Left.Value > node.Left.Left.Right.Value)
+            {
+                Max2 = node.Left.Left.Left.Value;
+            }
+            if (node.Left.Left.Left.Value < node.Left.Left.Right.Value)
+            {
+                Max2 = node.Left.Left.Right.Value;
+            }
+            if (node.Right.Left.Right.Value > Max2)
+            {
+                list3.Add(node.Right.Left.Right.Value);
+            }
+            else
+            {
+                list3.Add(Max2);
+            }
+            return list3;
+        }
         int LeafSums = 0;
         public int LeafSum(TNode node)
         {
