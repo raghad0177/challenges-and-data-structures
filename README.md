@@ -53,4 +53,7 @@
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch14.png "Open Link")
 # Challenge 15: SecMaxValue
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch15.png "Open Link")
+# Challenge 16: SumOfLeafs
+## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch16.png "Open Link")
+
 
