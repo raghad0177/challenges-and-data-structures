@@ -15,7 +15,7 @@ namespace TreeImplementation
             // Printing Pre Order Traversal
             // ( Root - Left - Right )
             Console.Write("Pre Order Traversal: ");
-            BTree1.PreOrderTraversal(BTree1.Root);
+            BTree1.PreOrderTraversal(BTree1.Root); 
             // Printing In Order Traversal
             // ( Left - Root - Right )
             Console.Write("\nIn Order Traversal: ");
