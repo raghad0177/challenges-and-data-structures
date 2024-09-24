@@ -65,6 +65,19 @@ namespace Linked_List_Implementation
                 Console.WriteLine("\nMerging : ");
                 LinkedList node = LinkedList.MergeTwoLists(linkedList3, linkedList4);
                 node.Print();
+
+                Console.WriteLine("\nRotateLeft for 1,2,3,4,5  with k=2 : ");
+                LinkedList linkedList5 = new LinkedList();
+                linkedList5.InsertLast(1);
+                linkedList5.InsertLast(2);
+                linkedList5.InsertLast(3);
+                linkedList5.InsertLast(4);
+                linkedList5.InsertLast(5);
+
+                linkedList5.RotateLeft(2);
+                linkedList5.Print();
+
+
             }
             catch (FormatException e)
             {

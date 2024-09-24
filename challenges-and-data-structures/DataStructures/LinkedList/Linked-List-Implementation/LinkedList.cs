@@ -154,6 +154,39 @@ namespace LearnLinkedList
             }
             return length;
         }
+
+        public void RotateLeft(int k)
+        {
+            //1 , 2, 3, 4, 5
+            Node current = First; //1
+            while (k != 0)
+            {
+                InsertLast(current.Data); //1 , 2, 3, 4, 5 ,1
+                Remove(current.Data);
+                current = current.Next; // 2
+                k--;
+            }
+            //while(k != 0)
+            //{
+            //    DeleteSpecifiedData(current.Data);
+            //    current = current.Next;
+            //    k--;
+            //}
+        }
+        public int[] GetLinkedListData(LinkedList linkedList)
+        {
+            var current = First;
+            var result = new List<int>();
+
+            while (current != null)
+            {
+                result.Add(current.Data);
+                current = current.Next;
+            }
+
+            return result.ToArray();
+        }
+
     }
 }
 
