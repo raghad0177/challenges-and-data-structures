@@ -57,6 +57,8 @@
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch16.png "Open Link")
 # Challenge 17: MaxNodeInLevels
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch17.png "Open Link")
+# Challenge 18: Rotate-by-K
+## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch18.png "Open Link")
 
 
 
