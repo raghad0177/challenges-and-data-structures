@@ -74,7 +74,7 @@ namespace Linked_List_Implementation
                 linkedList5.InsertLast(4);
                 linkedList5.InsertLast(5);
 
-                linkedList5.RotateLeft(2);
+                linkedList5.RotateLeft(7);
                 linkedList5.Print();
 
 

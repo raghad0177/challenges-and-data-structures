@@ -8,8 +8,6 @@ namespace TreeImplementation
 {
     public class BinaryTree
     {
-        List<int> list=new List<int>();
-        List<int> list2=new List<int>(); 
         public TNode Root { get; set; }
         public BinaryTree(int rootValue)
         {
@@ -18,10 +16,34 @@ namespace TreeImplementation
         public BinaryTree()
         {
         }
+        public void PrintRightView(TNode node)
+        {
+            TNode current = node.Left;
+            while (node != null)
+            {
+                Console.WriteLine(node.Value);
+                node = node.Right;
+            }
+            while (current != null)
+            {
+                TNode temp = current;
+                current = current.Right;               
+                if (current == null && temp.Left != null)
+                {
+                    current = temp.Left;
+                    current = current.Right;
+                }
+                if (current != null)
+                {
+                    Console.WriteLine(current.Value);
+                }
+            }
+        }
+        List<int> list = new List<int>();
+        List<int> list2 = new List<int>();
         List<int> list3 = new List<int>();
         int Max1 = 0;
         int Max2 = 0;
-
         public List<int> LargestValueEachLevel(TNode node)
         {
             list3.Add(node.Value);
