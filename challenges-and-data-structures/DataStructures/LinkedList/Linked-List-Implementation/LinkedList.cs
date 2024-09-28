@@ -177,16 +177,13 @@ namespace LearnLinkedList
         {
             var current = First;
             var result = new List<int>();
-
             while (current != null)
             {
                 result.Add(current.Data);
                 current = current.Next;
             }
-
             return result.ToArray();
         }
-
     }
 }
 
