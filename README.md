@@ -61,5 +61,7 @@
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch18.png "Open Link")
 # Challenge 19: Print-Right-View
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch19.png "Open Link")
+# Challenge 20: Level-with-Maximum-Number-of-Nodes
+## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch20.png "Open Link")
 
 
