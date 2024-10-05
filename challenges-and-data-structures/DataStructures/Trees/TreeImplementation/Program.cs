@@ -93,15 +93,20 @@ namespace TreeImplementation
             //    Console.Write(value + " ");
             //}
 
-            BinaryTree Btree5 = new BinaryTree();
-            Btree5.Root = new TNode(2);
-            Btree5.Root.Left = new TNode(3);
-            Btree5.Root.Right = new TNode(5);
-            Btree5.Root.Left.Left = new TNode(4);
-            Btree5.Root.Right.Right = new TNode(6);
-            Btree5.Root.Left.Left.Right = new TNode(7);
-            Btree5.PrintRightView(Btree5.Root);  // Output: 2 5 6 7
-        }
+           
 
+            BinaryTree Btree = new BinaryTree();
+            Btree.Root = new TNode(1);
+            Btree.Root.Left = new TNode(2);
+            Btree.Root.Right = new TNode(3);
+            Btree.Root.Left.Left = new TNode(4);
+            Btree.Root.Left.Right = new TNode(5);
+            Btree.Root.Right.Right = new TNode(6);
+            Btree.Root.Left.Left.Left = new TNode(7);
+            Btree.Root.Left.Left.Right = new TNode(8);
+            int result = Btree.LargestLevelValue();
+            Console.WriteLine(result);
+        }
     }
 }
+ 
