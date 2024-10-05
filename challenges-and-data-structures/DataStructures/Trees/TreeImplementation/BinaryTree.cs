@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace TreeImplementation
 {
@@ -217,7 +218,6 @@ namespace TreeImplementation
             Console.WriteLine("----------------------------->");
             print2DUtil(node, 0);
         }
-
         int COUNT = 7;
         private void print2DUtil(TNode root, int space)
         {
@@ -236,6 +236,38 @@ namespace TreeImplementation
             Console.Write(root.Value + "\n");
             // Process left child
             print2DUtil(root.Left, space);
+        }
+        public int LargestLevelValue()
+        {
+            List<int> nodeCountsPerLevel = new List<int>();
+            // Start by calling the helper method to calculate the count of nodes at each level
+            LargestLevelValue(Root, 0, nodeCountsPerLevel);
+            // Find the level with the maximum node count
+            int maxLevel = 0;
+            int maxNodes = nodeCountsPerLevel[0];
+            for (int i = 1; i < nodeCountsPerLevel.Count; i++)
+            {
+                if (nodeCountsPerLevel[i] > maxNodes)
+                {
+                    maxNodes = nodeCountsPerLevel[i];
+                    maxLevel = i;
+                }
+            }
+            return maxLevel;
+        }
+        private void LargestLevelValue(TNode node, int level, List<int> nodeCountsPerLevel)
+        {
+            if (node == null) return;
+            // If this is the first time visiting this level, initialize the count for the level
+            if (level == nodeCountsPerLevel.Count)
+            {
+                nodeCountsPerLevel.Add(0);
+            }
+            // Increment the count for the current level
+            nodeCountsPerLevel[level]++;
+            // Recur for the left and right children
+            LargestLevelValue(node.Left, level + 1, nodeCountsPerLevel);
+            LargestLevelValue(node.Right, level + 1, nodeCountsPerLevel);
         }
     }
 }
