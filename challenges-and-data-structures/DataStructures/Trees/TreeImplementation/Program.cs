@@ -93,19 +93,26 @@ namespace TreeImplementation
             //    Console.Write(value + " ");
             //}
 
-           
 
+
+            //BinaryTree Btree = new BinaryTree();
+            //Btree.Root = new TNode(1);
+            //Btree.Root.Left = new TNode(2);
+            //Btree.Root.Right = new TNode(3);
+            //Btree.Root.Left.Left = new TNode(4);
+            //Btree.Root.Left.Right = new TNode(5);
+            //Btree.Root.Right.Right = new TNode(6);
+            //Btree.Root.Left.Left.Left = new TNode(7);
+            //Btree.Root.Left.Left.Right = new TNode(8);
+            //int result = Btree.LargestLevelValue();
+            //Console.WriteLine(result);
             BinaryTree Btree = new BinaryTree();
             Btree.Root = new TNode(1);
             Btree.Root.Left = new TNode(2);
             Btree.Root.Right = new TNode(3);
             Btree.Root.Left.Left = new TNode(4);
             Btree.Root.Left.Right = new TNode(5);
-            Btree.Root.Right.Right = new TNode(6);
-            Btree.Root.Left.Left.Left = new TNode(7);
-            Btree.Root.Left.Left.Right = new TNode(8);
-            int result = Btree.LargestLevelValue();
-            Console.WriteLine(result);
+            int minDepth = Btree.FindMinimumDepth(Btree.Root); // Output: 2
         }
     }
 }
