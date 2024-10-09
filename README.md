@@ -63,5 +63,7 @@
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch19.png "Open Link")
 # Challenge 20: Level-with-Maximum-Number-of-Nodes
 ## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch20.png "Open Link")
+# Challenge 21: Binary-Tree-Minimum-Depth
+## [implementation](https://github.com/raghad0177/challenges-and-data-structures/blob/master/challenges-and-data-structures/whiteboard-challenges/ch21.png "Open Link")
 
 
