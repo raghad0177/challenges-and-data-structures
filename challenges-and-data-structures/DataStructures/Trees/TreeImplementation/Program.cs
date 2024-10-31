@@ -24,7 +24,6 @@ namespace TreeImplementation
             //// (Left - Right - Root)
             //Console.Write("\nPost Order Traversal: ");
             //BTree1.PostOrderTraversal(BTree1.Root);
-
             //BinaryTree b = new BinaryTree(10);
             //b.Insert(5);
             //b.Insert(15);
@@ -33,13 +32,11 @@ namespace TreeImplementation
             //b.Insert(12);
             //b.Insert(18);
             //b.print(b.Root);
-
             //BinaryTree Btree = new BinaryTree(4);
             //Btree.Root.Left = new TNode(8);
             //Btree.Root.Right = new TNode(7);
             //Btree.Root.Left.Left = new TNode(12);
             //Btree.Root.Left.Right = new TNode(9);
-
             //Console.WriteLine("Tree & Its Mirror : ");
             //Console.WriteLine("Before");
             //List<int> list = Btree.InorderTraversal(Btree.Root);
@@ -47,7 +44,6 @@ namespace TreeImplementation
             //{
             //    Console.Write(i + " ");
             //}
-
             //Console.WriteLine();
             //Console.WriteLine("After");
             //List<int> list2 = Btree.MirrorTree(Btree.Root);
@@ -92,9 +88,6 @@ namespace TreeImplementation
             //{
             //    Console.Write(value + " ");
             //}
-
-
-
             //BinaryTree Btree = new BinaryTree();
             //Btree.Root = new TNode(1);
             //Btree.Root.Left = new TNode(2);
@@ -106,13 +99,43 @@ namespace TreeImplementation
             //Btree.Root.Left.Left.Right = new TNode(8);
             //int result = Btree.LargestLevelValue();
             //Console.WriteLine(result);
+            //BinaryTree Btree = new BinaryTree();
+            //Btree.Root = new TNode(1);
+            //Btree.Root.Left = new TNode(2);
+            //Btree.Root.Right = new TNode(3);
+            //Btree.Root.Left.Left = new TNode(4);
+            //Btree.Root.Left.Right = new TNode(5);
+            //int minDepth = Btree.FindMinimumDepth(Btree.Root); // Output: 2
             BinaryTree Btree = new BinaryTree();
-            Btree.Root = new TNode(1);
-            Btree.Root.Left = new TNode(2);
-            Btree.Root.Right = new TNode(3);
-            Btree.Root.Left.Left = new TNode(4);
-            Btree.Root.Left.Right = new TNode(5);
-            int minDepth = Btree.FindMinimumDepth(Btree.Root); // Output: 2
+            Btree.Root = new TNode(50);
+            Btree.Root.Left = new TNode(30);
+            Btree.Root.Right = new TNode(70);
+            Btree.Root.Left.Left = new TNode(100);
+            Btree.Root.Left.Right = new TNode(90);
+            Btree.Root.Right.Left = new TNode(60);
+            Btree.Root.Right.Right = new TNode(82);
+            Btree.Root.Right.Right.Left = new TNode(80);
+            Btree.Root.Right.Right.Left.Right = new TNode(81);
+            //      50
+            //     /  \
+            //   30    70
+            //  /  \   /  \
+            // 100 90 60  82
+            //             /
+            //            80
+            //             \
+            //              81
+            // the out put should be :   50  40  70  82  81
+            Console.WriteLine("Result  : ");
+            int[] arr = new int[] { 1, 2, 3, 4, 5, 6,7 };
+            //        4
+            //    /      \
+            //   2        6
+            //  /  \     /  \
+            // 1    3   5    7
+            bool result = Btree.IsValidate(Btree.Root);
+            //Btree.print(result);
+            Console.WriteLine(result);
         }
     }
 }

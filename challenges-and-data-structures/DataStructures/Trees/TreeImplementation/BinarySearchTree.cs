@@ -42,22 +42,7 @@ namespace TreeImplementation
                 }
             }
         }
-        // Contain
-        public bool Contains(int value, TNode node)
-        {
-            if (node == null) return false;
-            if (value == node.Value) return true;
-
-            else if (value < node.Value)
-            {
-                return Contains(value, node.Left);
-            }
-            else if (value > node.Value)
-            {
-                return Contains(value, node.Right);
-            }
-            else return false;
-        }
+       
         // Delete
         public TNode deleteRecursively(TNode root, int value)
         {
